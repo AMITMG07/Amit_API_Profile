@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Random User Profile</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="w-2xs my-32 mx-auto text-center rounded-2xl bg-amber-200 border">
+  <div class="w-[400px] my-32 mx-auto text-center">
+    <img id="avatar" src="" alt="User Avatar" class="w-32 h-32 mx-auto rounded-full mb-4"/>
+    <p id="name" class="text-xl font-semibold"></p>
+    <p id="email" class="text-sm text-neutral-500 mb-4"></p>
+    <button onclick="fetchProfile()" class="bg-black px-5 py-3 text-white rounded-lg">
+      Generate New Profile
+    </button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
